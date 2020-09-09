@@ -1,0 +1,17 @@
+.user-info__button {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  color:white;
+  background-color: black;
+}
+.user-info__button_disabled{
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 980px) {
+  .user-info__button {
+    position: static;
+    margin-bottom: 40px;
+  }
+}
